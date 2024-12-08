@@ -46,3 +46,61 @@ https://github.com/licyk/sd-webui-tcd-sampler
 ## 鸣谢
 [AG-w](https://github.com/AG-w)：提供 TCD 采样算法  
 [ananosleep](https://github.com/ananosleep)：提供为 SD WebUI 添加采样算法的方法
+
+-----------
+
+Here is a translation into English:
+
+sd-webui-tcd-sampler
+Directory
+
+    sd-webui-tcd-sampler
+        Directory
+        Introduction
+        Installation
+            Installation via Command Line
+            Installation via stable-diffusion-webui
+            Installation via Drawing World Launcher
+        Usage
+        Acknowledgments
+
+Introduction
+
+An extension that adds the TCD sampling algorithm to stable-diffusion-webui, which separates the TCD sampling algorithm from the sd-webui-smea project.
+
+Installation
+
+Installation via Command Line
+
+    Navigate to the extensions directory of stable-diffusion-webui:
+
+cd extensions
+
+Use the Git command to download the extension:
+
+    git clone https://github.com/licyk/sd-webui-tcd-sampler
+
+Installation via stable-diffusion-webui
+
+    After entering the stable-diffusion-webui interface, click on "Extensions" -> "Install from URL", and enter the following link in the input field for the extension's Git repository URL:
+
+    https://github.com/licyk/sd-webui-tcd-sampler
+
+    Click "Install" to download the extension.
+
+Installation via Drawing World Launcher
+
+    Open the Drawing World Launcher, click on "Version Management" -> "Install New Extension", and in the "Extension URL" input field, enter the following link:
+
+    https://github.com/licyk/sd-webui-tcd-sampler
+
+    Click "Install" on the right side of the input field to download the extension.
+
+Usage
+
+After the extension is installed, you will see the TCD sampling algorithm in the sampling methods on the Image Generation tab of stable-diffusion-webui. Once selected, you can use it.
+
+Acknowledgments
+
+    AG-w: Provided the TCD sampling algorithm.
+    ananosleep: Provided the method to add sampling algorithms to SD WebUI.
