@@ -12,7 +12,7 @@
   - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-This is an extension for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) that adds the **TCD** sampling algorithm. It extracts the TCD sampler from the [sd-webui-smea](https://github.com/AG-w/sd-webui-smea) project and makes it available as a standalone extension.
+This is an extension for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) or [stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) that adds the **TCD** sampling algorithm. It extracts the TCD sampler from the [sd-webui-smea](https://github.com/AG-w/sd-webui-smea) project and makes it available as a standalone extension.
 
 ## Installation
 
@@ -26,7 +26,7 @@ cd extensions
 Clone this repository:
 
 ```bash
-git clone https://github.com/licyk/sd-webui-tcd-sampler
+git clone https://github.com/zeittresor/sd-webui-tcd-sampler
 ```
 
 ### Install via stable-diffusion-webui
@@ -34,7 +34,7 @@ In the `stable-diffusion-webui` interface, go to **Extensions** → **Install fr
 Paste the following into **URL for extension's git repository**:
 
 ```
-https://github.com/licyk/sd-webui-tcd-sampler
+https://github.com/zeittresor/sd-webui-tcd-sampler
 ```
 
 Click **Install**.
@@ -44,7 +44,7 @@ Open **HuiShi Launcher (绘世启动器)**, then go to **Version Management** �
 Paste the following into the **Extension URL** field:
 
 ```
-https://github.com/licyk/sd-webui-tcd-sampler
+https://github.com/zeittresor/sd-webui-tcd-sampler
 ```
 
 Click **Install** (the button on the right side of the input field).
@@ -55,6 +55,9 @@ After installation, you can find **TCD** under **Sampling method** in the **txt2
 ## Acknowledgements
 - [AG-w](https://github.com/AG-w) — for providing the TCD sampling algorithm  
 - [ananosleep](https://github.com/ananosleep) — for providing the method to add sampling algorithms to SD WebUI
+
+# Fork
+This is a modified fork of https://github.com/licyk/sd-webui-tcd-sampler
 
 ## Addons in this fork
 - Extra TCD Samplers (3 additional TCD Samplers added):
