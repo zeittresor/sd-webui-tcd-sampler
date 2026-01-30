@@ -55,3 +55,10 @@ After installation, you can find **TCD** under **Sampling method** in the **txt2
 ## Acknowledgements
 - [AG-w](https://github.com/AG-w) — for providing the TCD sampling algorithm  
 - [ananosleep](https://github.com/ananosleep) — for providing the method to add sampling algorithms to SD WebUI
+
+## Addons in this fork
+- Extra TCD Samplers (3 additional TCD Samplers added):
+- **TCD_Reviewed** is a reviewed Version of the orignal implementation with some changes
+- **TCD_Real** is a attempt to implement the real formulars
+- **TCD_Pyramid** is the TCD Sampler with additional pyramid noise
+  
