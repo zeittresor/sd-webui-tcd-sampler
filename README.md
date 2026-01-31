@@ -60,8 +60,9 @@ After installation, you can find **TCD** under **Sampling method** in the **txt2
 This is a modified fork of https://github.com/licyk/sd-webui-tcd-sampler
 
 ## Addons in this fork
-- Extra TCD Samplers (3 additional TCD Samplers added):
+- Extra TCD Samplers (4 additional TCD Samplers added):
 - **TCD_Reviewed** is a reviewed Version of the orignal implementation with some changes
 - **TCD_Real** is a attempt to implement the real formulars
 - **TCD_Pyramid** is the TCD Sampler with additional pyramid noise
+- **TCD_Sierpinski-Triangle** is the TCD Sampler with additional noise by a Sierpinski-Triangle fractal used for the first half of steps
   
